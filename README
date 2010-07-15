@@ -1,0 +1,18 @@
+pong.lua 
+  Lua source file of an implementation of the classical Pong game, to run on
+Luminary Micro's LM3S kits that have a RIT OLED display.
+
+LM3S.lua
+  Platform specific buttons and functions definitions.
+  This module is require()d by Pong and included on the autorun version too.
+  It's main goal is to simplify the use of some specific platform resources.
+
+pong-autorun.bin
+  Binary image, ready to be flashed to a proper LM3S kit, with the pong.lua
+program built as an autorun.lua. This will make the program starts directly
+after a reset.
+
+
+
+   More information can be found on the eLua site at: www.eluaproject.net
+
